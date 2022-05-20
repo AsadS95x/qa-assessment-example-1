@@ -13,5 +13,17 @@
 
 	# What was the name of the function we have seen which changes the case of a string?  Use your CLI to access the Python documentation and get help(str).
     
+from operator import truediv
+
+
 def endsPy(input):
-	return False
+	length = len(input)
+	f2 = input[(length-2):(length)]
+	#print(f2.lower())
+	if (f2.lower() == "py"):
+		print("True")
+		return True
+	else:
+		return False
+
+endsPy("GoddammnPy")

@@ -21,9 +21,8 @@ def endsPy(input):
 	f2 = input[(length-2):(length)]
 	#print(f2.lower())
 	if (f2.lower() == "py"):
-		print("True")
+		# print("True")
 		return True
 	else:
 		return False
 
-endsPy("GoddammnPy")
